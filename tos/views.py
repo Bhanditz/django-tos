@@ -5,7 +5,8 @@ from django.contrib import messages
 from django.contrib.auth import login as auth_login
 from django.contrib.auth import REDIRECT_FIELD_NAME
 from django.contrib.auth.forms import AuthenticationForm
-from django.contrib.sites.models import Site, RequestSite
+from django.contrib.sites.models import Site
+from django.contrib.sites.requests import RequestSite
 from django.http import HttpResponseRedirect
 from django.shortcuts import render_to_response
 from django.template import RequestContext
